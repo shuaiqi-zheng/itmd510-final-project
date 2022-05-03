@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+      <Button contentDisplay="CENTER" layoutX="405.0" layoutY="283.0" mnemonicParsing="false" onAction="#login" prefHeight="35.0" prefWidth="67.0" text="Login" />
+      <TextField fx:id="txtUsername" alignment="TOP_LEFT" layoutX="406.0" layoutY="173.0" prefHeight="27.0" prefWidth="191.0" />
+      <PasswordField fx:id="txtPassword" alignment="TOP_LEFT" layoutX="406.0" layoutY="233.0" prefHeight="27.0" prefWidth="191.0" />
+      <Label fx:id="lblError" layoutX="319.0" layoutY="342.0" prefHeight="41.0" prefWidth="514.0" text="">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font></Label>
+      <Button layoutX="529.0" layoutY="283.0" mnemonicParsing="false" onAction="#exit" prefHeight="35.0" prefWidth="67.0" text="Exit" />
+      <Button layoutX="467.0" layoutY="453.0" mnemonicParsing="false" onAction="#register" prefHeight="35.0" prefWidth="67.0" text="Register" />
+      <Label layoutX="319.0" layoutY="173.0" text="Username">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="319.0" layoutY="233.0" text="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="367.0" layoutY="423.0" text="New user? Please create an account first.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="273.0" layoutY="40.0" prefHeight="113.0" prefWidth="458.0" text="MyIIT Parking Portal ">
+         <font>
+            <Font name="System Italic" size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
